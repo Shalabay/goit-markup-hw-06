@@ -557,6 +557,63 @@ img {
 .address-list-footer .address-list-link {
   color: rgba(255, 255, 255, 0.6);
 }
+.fotter-subscribe-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-secondary-color);
+  margin-bottom: 20px;
+}
+.fotter-subscribe {
+  margin-left: 70px;
+}
+.fotter-subscribe-form {
+  display: inline;
+}
+.fotter-subscribe-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #2f303a;
+  padding-left: 16px;
+  outline: none;
+  color: #ffffff 60 %;
+}
+.fotter-subscribe-btn {
+  position: relative;
+  padding: 10px 62px 10px 29px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--text-secondary-color);
+  border: transparent;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  outline: none;
+}
+.fotter-subscribe-icon {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+  display: block;
+  width: 24px;
+  height: 24px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* ================= END FOOTER ================= */
 
 /* ================= PORTFOLIO  ================= */
